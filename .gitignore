@@ -1,0 +1,30 @@
+// generate a gitignore file for terraform
+# Local .terraform directories
+**/.terraform/*
+# .tfstate files
+*.tfstate
+*.tfstate.*
+# Crash log files
+crash.log
+# Ignore any .tfvars files that are generated automatically for each Terraform run. Most
+# .tfvars files are managed by the version control system and are checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+
+*.plan
+*.tfstate
+*.tfstate.backup
+*.hcl
+*.tfvars
+
